@@ -24,9 +24,9 @@
 ## Required system environment variables for execution:
 * AWS_REGION: so that the proper s3 endpoint could be applied
 * If you have a configured AWS CLI profile and want to use it:
-  * AWS_PROFILE: only if you want to use a configured AWS CLI profile with s3:putObject access
+  * AWS_PROFILE
 * If you don't have a configured AWS CLI profile, but rather access keys:
-  * AWS_ACCESS_KEY_ID: must have s3:putObject access
+  * AWS_ACCESS_KEY_ID
   * AWS_SECRET_KEY
   * AWS_SESSION_TOKEN: only if you're using IAM role based credentials
 
