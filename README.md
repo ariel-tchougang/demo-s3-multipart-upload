@@ -12,6 +12,8 @@
   * Use S3 uploadPart API call to upload each of the parts to the upload ID and retrieve their corresponding ETag
   * Use S3 completeMultipartUpload API call with the upload ID and the finished parts list sorted by part number
 
+![Alt text](/images/s3-multipart-upload.png?raw=true "S3 upload diagram")
+
 ## Technologies used:
 * Java 17
 * Maven
