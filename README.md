@@ -43,7 +43,10 @@
 * -m or --multipart_only: to be set to false if you also want to trigger a simple putObject for comparison (default value is true)
 
 ## Building the application
-> mvn clean package
+
+```bash
+mvn clean package
+```
 
 ## Run the application
 > Don't forget to first set the required system environment variables!!!
